@@ -1,4 +1,4 @@
-# API Micro Service: URL Shortener Microservice
+# API Micro Service: Exercise Tracker Microservice
 
 ## Description
 
