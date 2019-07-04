@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon --exec 'heroku local' --signal SIGTERM"
+    "dev": "nodemon --exec 'heroku local' --signal SIGTERM",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "engines": {
     "node": "v11.9.0"
@@ -33,6 +35,8 @@
     "express-json-validator-middleware": "^1.2.3",
     "helmet": "^3.15.0",
     "mongodb": "^3.1.13",
-    "mongoose": "^5.4.11"
-  }
+    "mongoose": "^5.4.11",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
