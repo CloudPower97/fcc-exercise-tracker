@@ -32,7 +32,7 @@
     "express": "^4.16.4",
     "express-json-validator-middleware": "^1.2.3",
     "helmet": "^3.15.0",
-    "mongodb": "^3.1.13",
-    "mongoose": "^5.4.11"
+    "mongodb": "^3.3.0",
+    "mongoose": "^5.7.3"
   }
 }
